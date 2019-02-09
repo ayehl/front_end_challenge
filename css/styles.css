@@ -1,0 +1,48 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #190B40;
+  }
+
+.container {
+    box-sizing: border-box;
+  }
+
+.arrow_down {
+    margin: 0 auto;
+    padding: 20px 22px 15px 15px;
+    text-align: right;
+    float: left;
+  }
+
+.top_left {
+
+}
+
+.bottom_left {
+
+}
+
+.top_right {
+  text-align: right;
+  float: left;
+}
+
+.bottom_right {
+  text-align: right;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+}
