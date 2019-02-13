@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <meta charset="utf-8">
     <title></title>
@@ -10,6 +10,7 @@
   <body>
 
 <!--nav-->
+<section class ="container">
   <nav>
       <div class="nav_left">
         <i class="fas fa-signal"></i>
@@ -23,7 +24,7 @@
         <i class="fas fa-angle-left"></i>
       </div>
       </div class="stop">Washington & State</div>
-</nav>
+ </nav>
 <section>
 
 <!--map-->
@@ -32,7 +33,7 @@
   </div>
 
 <!--next arrival menu-->
-  <div class="next_arrival">
+  <div class="next_arrivals">
       <h5>Next Arrivals</h5>
   </div>
   <div class="arrow_down">
@@ -43,16 +44,20 @@
 <div class="eastbound">
   <h5>Eastbound</h5>
   <ul>
-    <li class="top_left">60</li>
-    <li class="bottom_left">Randolph/Harbor Dr</li>
-    <li class="top_right">9:45am</li>
-    <li class="bottom_right">Every 20 minutes</li>
+    <li class="bus_number">60</li>
+    <li class="bus_info">
+      <h2>Randolph/Harbor Dr</h2>
+      <p>Every 20 minutes</p>
+    </li>
+    <li class="bus_arrival">9:45am</li>
   </ul>
   <ul>
-    <li class="top_left">124</li>
-    <li class="bottom_left">Navy Pier</li>
-    <li class="top_right">9:50am</li>
-    <li class="bottom_right">Every 10 minutes</li>
+    <li class="bus_number">124</li>
+    <li class="bus_info">
+      <h2>Navy Pier</h2>
+      <p>Every 10 minutes</p>
+    </li>
+    <li class="bus_arrival">9:50am</li>
   </ul>
 </div>
 
@@ -60,10 +65,12 @@
 <div class="northbound">
   <h5>Northbound</h5>
   <ul>
-    <li class="top_left">151</li>
-    <li class="bottom_left">Devon/Clark</li>
-    <li class="top_right">9:45am</li>
-    <li class="bottom_right">Every 16 minutes</li>
+    <li class="bus_number">151</li>
+    <li class="bus_info">
+      <h2>Devon/Clark</h2>
+      <p>Every 16 minutes</p>
+    </li>
+    <li class="bus_arrival">9:45am</li>
   </ul>
 </div>
 
@@ -71,16 +78,20 @@
 <div class="southbound">
   <h5>Southbound</h5>
   <ul>
-    <li class="top_left">J14</li>
-    <li class="bottom_left">103rd/Stony Island</li>
-    <li class="top_right">9:45am</li>
-    <li class="bottom_right">Every 15 minutes</li>
+    <li class="bus_number">J14</li>
+    <li class="bus_info">
+      <h2>103rd/Stony Island</h2>
+      <p>Every 15 minutes</p>
+    </li>
+    <li class="bus_arrival">9:45am</li>
   </ul>
   <ul>
-    <li class="top_left">124</li>
-    <li class="bottom_left">Navy Pier</li>
-    <li class="top_right">9:45am</li>
-    <li class="bottom_right">Every 10 minutes</li>
+    <li class="bus_number">124</li>
+    <li class="bus_info">
+      <h2>Navy Pier</h2>
+      <p>Every 10 minutes</p>
+  </li>
+    <li class="bus_arrival">9:45am</li>
   </ul>
 </div>
 
@@ -88,10 +99,12 @@
 <div class="reroute">
   <h5>Reroute</h5>
   <ul>
-    <li class="top_left">6x</li>
-    <li class="bottom_left">Jackson Park Expres</li>
-    <li class="top_right">N/A</li>
-    <li class="bottom_right">N/A</li>
+    <li class="bus_number">6x</li>
+    <li class="bus_info">
+      <h2>Jackson Park Expres</h2>
+      <p>N/A</p>
+    </li>
+    <li class="bus_arrival">N/A</li>
   </ul>
 </div>
 
@@ -99,19 +112,25 @@
 <div class="out_of_service">
   <h5>Out of service</h5>
   <ul>
-    <li class="top_left">4</li>
-    <li class="bottom_left">Cottage Grove</li>
-    <li class="bottom_right">Resumes 12:10am</li>
+    <li class="bus_number">4</li>
+    <li class="bus_info">
+      <h2>Cottage Grove</h2>
+      <p>Resumes 12:10am</p>
+    </li>
   </ul>
   <ul>
-    <li class="top_left">20</li>
-    <li class="bottom_left">Madison</li>
-    <li class="bottom_right">Resumes 12:10am</li>
+    <li class="bus_number">20</li>
+    <li class="bus_info">
+      <h2>Madison</h2>
+      <p>Resumes 12:10am</p>
+    </li>
   </ul>
   <ul>
-    <li class="top_left">157</li>
-    <li class="bottom_left">Streeterville/Taylor</li>
-    <li class="bottom_right">Resumes 6:00am</li>
+    <li class="bus_number">157</li>
+    <li class="bus_info">
+      <h2>Streeterville/Taylor</h2>
+      <p>Resumes 6:00am</p>
+  </li>
   </ul>
 </div>
 
