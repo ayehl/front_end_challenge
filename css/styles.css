@@ -39,20 +39,22 @@ nav {
 ul li {
   list-style-type: none;
   box-sizing: border-box;
-  display: block;
   float: left;
+  clear: both;
+  display: block;
   padding: 10px;
   }
 
 .bus_number, .bus_arrival {
   float: left;
+  clear: both;
   width: 10%;
   padding: 10px;
   }
 
 .bus_info {
-  color: blue;
   float: left;
+  clear: both;
   width: 80%;
   padding: 10px;
   }
