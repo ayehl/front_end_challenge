@@ -22,6 +22,7 @@ nav {
   height: 50px;
 }
 
+
 .arrow_left, .stop {
   float: left;
   width: 33%;
@@ -29,32 +30,35 @@ nav {
 
 .container {
     box-sizing: border-box;
-    border: 0.5px solid #BCBBC1;
+    /* border: 0.5px solid #BCBBC1;  */
     border-left-color: transparent;
     border-right-color: transparent;
     width: 450px;
     margin: 0 auto;
   }
 
+ul {
+  clear: both;
+  margin: 0;
+}
+
 ul li {
   list-style-type: none;
   box-sizing: border-box;
   float: left;
-  clear: both;
   display: block;
   padding: 10px;
   }
 
+
 .bus_number, .bus_arrival {
   float: left;
-  clear: both;
   width: 10%;
   padding: 10px;
   }
 
 .bus_info {
   float: left;
-  clear: both;
   width: 80%;
   padding: 10px;
   }
