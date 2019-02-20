@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+img { max-width: 100%;}
 
 body {
   box-sizing: border-box;
@@ -33,13 +34,14 @@ nav {
     /* border: 0.5px solid #BCBBC1;  */
     border-left-color: transparent;
     border-right-color: transparent;
-    width: 450px;
+    max-width: 450px;
     margin: 0 auto;
   }
 
 ul {
   clear: both;
   margin: 0;
+  font-family: sans-serif;
 }
 
 ul li {
@@ -50,40 +52,52 @@ ul li {
   padding: 10px;
   }
 
-
-.bus_number, .bus_arrival {
-  float: left;
-  width: 10%;
-  padding: 10px;
+  .next_arrivals {
+      color: white;
+      box-sizing: border-box;
+      float: left;
+      height: 40px;
+      width: 80%;
+      padding: 10px;
+      background-color: #190B40;
   }
+
+  .arrow_down {
+      color: white;
+      text-align: right;
+      margin: 0 auto;
+      height: 40px;
+      width: 20%;
+      padding: 10px;
+      float: left;
+      background-color: #190B40;
+    }
+
+.bus_number {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  }
+
+.bus_arrival {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    }
 
 .bus_info {
   float: left;
-  width: 80%;
+  width: 60%;
   padding: 10px;
   }
+
+p {
+  font-size: .75em;
+  font-style: italic;
+}
 
 .map {
   width: 100%;
 }
-
-.next_arrivals {
-    color: white;
-    box-sizing: border-box;
-    float: left;
-    height: 40px;
-    width: 80%;
-    padding: 10px;
-    background-color: #190B40;
-}
-
-.arrow_down {
-    color: white;
-    text-align: right;
-    margin: 0 auto;
-    height: 40px;
-    width: 20%;
-    padding: 10px;
-    float: left;
-    background-color: #190B40;
-  }
