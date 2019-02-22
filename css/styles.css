@@ -41,6 +41,7 @@ ul {
   clear: both;
   margin: 0;
   font-family: sans-serif;
+  border-bottom: .5px;
 }
 
 ul li {
@@ -49,6 +50,11 @@ ul li {
   float: left;
   display: block;
   padding: 10px;
+  }
+
+ul::after {
+    content: "";
+    display: block;    
   }
 
   .next_arrivals {
